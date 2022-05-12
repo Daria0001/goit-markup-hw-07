@@ -29,14 +29,14 @@
     margin-bottom: 0px;
   }
 
-  &__link:hover .product-thumb {
+  &__link:hover &__text {
     transform: translateY(-294px);
   }
-}
 
-.overlay {
-  height: 294px;
-  overflow: hidden;
+  &__overlay {
+    height: 294px;
+    overflow: hidden;
+  }
 
   &__img {
     display: block;
